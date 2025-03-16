@@ -6,4 +6,4 @@ print("Tax to be paid: ",tax)
 sysint1 = int(sal)
 sysint1 = sysint1+1
 str1 = "Jogeswar !"
-print("Hello",str1)
+print("Hello....",str1)
