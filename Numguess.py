@@ -37,7 +37,7 @@ def numguess():
 \_/  \|\____/\_/  \|\____/\____\\_/\_\  \____\\____/\____\\____/\____/\_/\_/  \|\____\  \____\\_/ \|\_/  \|\____\
                                                                                                                  '''
     print(logo)
-    print("Welcome to the Number Guessing Game!")
+    print("Welcome to the Number Guessing Game!!")
     print("I'm thinking of a number between 1 and 100.")
     print("Try to guess it.")
     print("Good luck!")
