@@ -10,7 +10,7 @@ def random_color():
     b = random.randint(0,255)
     random_color = (r,g,b)
     return random_color
-
+#
 timmy = t.Turtle()
 timmy.speed("fastest")
 
