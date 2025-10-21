@@ -1,5 +1,7 @@
 from turtle import Turtle, Screen
 import random
+ALIGNMENT = "center"
+FONT = ("Courier", 24, "normal")    
 
 class Score(Turtle):
     """A class to manage the scoreboard in the Snake game."""
@@ -15,13 +17,17 @@ class Score(Turtle):
         
     def update_scoreboard(self):
         self.clear()
-        self.write(f"Score: {self.score}", align="center", font=("Courier", 24, "normal"))
+        self.write(f"Score: {self.score}", align=ALIGNMENT, font=(FONT))
         print("updated scoreboard")
     
     def increase_score(self):
         self.score += 1
         self.update_scoreboard()
     
+    def game_over(self):
+        self.goto(0, 0)
+        self.write("GAME OVER", align=ALIGNMENT, font=(FONT))
+        
     def reset(self):
         self.score = 0
         self.update_scoreboard()
